@@ -15,6 +15,11 @@
 		08A15DFF1C8AD0E400389AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A15DFD1C8AD0E400389AA0 /* LaunchScreen.storyboard */; };
 		08A15E0A1C8AD0E400389AA0 /* CellqianruCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A15E091C8AD0E400389AA0 /* CellqianruCollectionViewTests.m */; };
 		08A15E151C8AD0E400389AA0 /* CellqianruCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A15E141C8AD0E400389AA0 /* CellqianruCollectionViewUITests.m */; };
+		08A15E251C8AD15500389AA0 /* CustumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A15E231C8AD15500389AA0 /* CustumTableViewCell.m */; };
+		08A15E261C8AD15500389AA0 /* CustumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A15E241C8AD15500389AA0 /* CustumTableViewCell.xib */; };
+		08A15E2A1C8AD7B900389AA0 /* CustumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A15E281C8AD7B900389AA0 /* CustumCollectionViewCell.m */; };
+		08A15E2B1C8AD7B900389AA0 /* CustumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A15E291C8AD7B900389AA0 /* CustumCollectionViewCell.xib */; };
+		08A15E2D1C8AD8EF00389AA0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A15E2C1C8AD8EF00389AA0 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		08A15E101C8AD0E400389AA0 /* CellqianruCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellqianruCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A15E141C8AD0E400389AA0 /* CellqianruCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellqianruCollectionViewUITests.m; sourceTree = "<group>"; };
 		08A15E161C8AD0E400389AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A15E221C8AD15500389AA0 /* CustumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumTableViewCell.h; sourceTree = "<group>"; };
+		08A15E231C8AD15500389AA0 /* CustumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumTableViewCell.m; sourceTree = "<group>"; };
+		08A15E241C8AD15500389AA0 /* CustumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustumTableViewCell.xib; sourceTree = "<group>"; };
+		08A15E271C8AD7B900389AA0 /* CustumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumCollectionViewCell.h; sourceTree = "<group>"; };
+		08A15E281C8AD7B900389AA0 /* CustumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumCollectionViewCell.m; sourceTree = "<group>"; };
+		08A15E291C8AD7B900389AA0 /* CustumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustumCollectionViewCell.xib; sourceTree = "<group>"; };
+		08A15E2C1C8AD8EF00389AA0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,13 @@
 		08A15DEE1C8AD0E400389AA0 /* CellqianruCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				08A15E2C1C8AD8EF00389AA0 /* 1.jpg */,
+				08A15E271C8AD7B900389AA0 /* CustumCollectionViewCell.h */,
+				08A15E281C8AD7B900389AA0 /* CustumCollectionViewCell.m */,
+				08A15E291C8AD7B900389AA0 /* CustumCollectionViewCell.xib */,
+				08A15E221C8AD15500389AA0 /* CustumTableViewCell.h */,
+				08A15E231C8AD15500389AA0 /* CustumTableViewCell.m */,
+				08A15E241C8AD15500389AA0 /* CustumTableViewCell.xib */,
 				08A15DF21C8AD0E400389AA0 /* AppDelegate.h */,
 				08A15DF31C8AD0E400389AA0 /* AppDelegate.m */,
 				08A15DF51C8AD0E400389AA0 /* ViewController.h */,
@@ -207,6 +226,7 @@
 				TargetAttributes = {
 					08A15DEB1C8AD0E300389AA0 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6ZFZ89UGAB;
 					};
 					08A15E041C8AD0E400389AA0 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,9 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A15E261C8AD15500389AA0 /* CustumTableViewCell.xib in Resources */,
 				08A15DFF1C8AD0E400389AA0 /* LaunchScreen.storyboard in Resources */,
 				08A15DFC1C8AD0E400389AA0 /* Assets.xcassets in Resources */,
+				08A15E2D1C8AD8EF00389AA0 /* 1.jpg in Resources */,
 				08A15DFA1C8AD0E400389AA0 /* Main.storyboard in Resources */,
+				08A15E2B1C8AD7B900389AA0 /* CustumCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A15E251C8AD15500389AA0 /* CustumTableViewCell.m in Sources */,
 				08A15DF71C8AD0E400389AA0 /* ViewController.m in Sources */,
 				08A15DF41C8AD0E400389AA0 /* AppDelegate.m in Sources */,
+				08A15E2A1C8AD7B900389AA0 /* CustumCollectionViewCell.m in Sources */,
 				08A15DF11C8AD0E400389AA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CellqianruCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.CellqianruCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +451,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CellqianruCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.CellqianruCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

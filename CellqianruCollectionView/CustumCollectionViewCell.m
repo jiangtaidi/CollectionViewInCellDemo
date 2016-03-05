@@ -11,7 +11,7 @@
 @implementation CustumCollectionViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    
 }
 
 @end
